@@ -35,7 +35,7 @@ typedef void (^LoganFilePathBlock)(NSString *_Nullable filePath);
 
 /**
  logan初始化
- 
+ key 和 iv 通过与后端进行约定
  @param aes_key16 16位aes加密key
  @param aes_iv16  16位aes加密iv
  @param max_file  日志文件最大大小，超过该大小后日志将不再被写入，单位：byte。
