@@ -31,7 +31,7 @@ extern "C"
 #include <zlib.h>
 #include <stdlib.h>
 #include "logan_config.h"
-
+// test
 /**
  * 开放接口
  * 前4个接口在Thread中调用(强调)
