@@ -42,7 +42,7 @@ typedef enum : NSUInteger {
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    /// AES 加密使用的 key 和 iv 都是和后端约定好的
     NSData *keydata = [@"0123456789012345" dataUsingEncoding:NSUTF8StringEncoding];
     NSData *ivdata = [@"0123456789012345" dataUsingEncoding:NSUTF8StringEncoding];
     uint64_t file_max = 10 * 1024 * 1024;
